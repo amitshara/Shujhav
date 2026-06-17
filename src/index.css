@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F8FAFC;
+}
+
+/* Custom CSS Classes for Sleek Interface Theme */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+.dark .glass {
+  background: rgba(10, 37, 64, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navy-gradient {
+  background: linear-gradient(135deg, #0A2540 0%, #164271 100%);
+}
+
+.gold-accent-text {
+  color: #C5A059;
+}
+
+.gold-accent-bg {
+  background-color: #C5A059;
+}
+
+.hero-shadow {
+  box-shadow: 0 20px 50px -12px rgba(10, 37, 64, 0.15);
+}
+
+.dark .hero-shadow {
+  box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  z-index: 0;
+  pointer-events: none;
+}

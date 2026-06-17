@@ -1,0 +1,6 @@
+{
+  "name": "Shujhav",
+  "description": "AI-powered legal guidance and dispute resolution platform for India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
